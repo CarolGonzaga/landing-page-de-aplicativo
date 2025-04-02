@@ -6,7 +6,7 @@
 
 <p align="center">Projeto de uma landing page de produto - Mobile First.</p>
 <p align="center">
-  <a href="#-tecnologias">Tecnologia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="">Acesse o Projeto</a>
+  <a href="#-tecnologias">Tecnologia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://carolgonzaga.github.io/landing-page-de-aplicativo/">Acesse o Projeto</a>
 </p>
 
 </br>

@@ -1,7 +1,7 @@
-#hero  {
+#hero {
     text-align: center;
 
-    & img[src*="music"] {
+    & img[src*='music'] {
         width: 12.875rem;
     }
 
@@ -10,7 +10,7 @@
     }
 
     & p {
-        font: var(--fw-md) var(--fs-lg)/1.4  var(--font-family);
+        font: var(--fw-md) var(--fs-lg) / 1.4 var(--font-family);
         color: var(--text-color-secondary);
         margin-top: .5rem;
     }
@@ -21,25 +21,25 @@
     }
 }
 
-@media (width >= 80em) {
-    #hero  {
+@media (width >=80em) {
+    #hero {
         background: url(../images/bg-hero-desktop.svg) no-repeat bottom center/contain;
         padding-bottom: 15rem;
 
-        & img[src*="music"] {
+        & img[src*='music'] {
             width: 25.75rem;
         }
 
         & h1 {
             margin-top: 1.5rem;
         }
-    
+
         & p {
-            font-size: 2.5rem;
             margin-top: 1rem;
+            font-size: 2.5rem;
         }
 
-        & .buttons {
+        .buttons {
             margin-top: 3rem;
         }
     }

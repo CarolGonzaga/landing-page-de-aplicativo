@@ -99,6 +99,14 @@
             margin-inline: auto;
         }
 
+        & .cards {
+            & > :first-child,
+            & > :last-child {
+                padding-top: 3rem;
+                height: 32.5rem;
+            }
+        }
+
         & .premium .card {
             padding-bottom: 6rem;
         }
@@ -106,10 +114,6 @@
         .btn-md {
             padding: .75rem 1.5rem;
             font-size: var(--fs-md);
-        }
-
-        & .card:nth-child(3) .separator {
-            margin-block: 1.5rem;
         }
     }
 }
